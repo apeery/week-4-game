@@ -7,6 +7,9 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+	
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
 
 <body>
 	
@@ -26,8 +29,8 @@
 		<p>Each time when the game starts, the game will change the values of each crystal.</p>
 	</div>
 
-	<div class="matchnumber">
-		<h2 id="randomnumber">100</h2>
+	<div class="match">
+		<h2 id="random"></h2>
 	</div>
 
 	<div class="winloss">
@@ -39,10 +42,10 @@
 		</h3>
 
 	<div class="crystals">
-		<img src="assets/images/red.png" class=crystal id="one" alt="red">
-		<img src="assets/images/blue.png" class=crystal id="two" alt="blue">
-		<img src="assets/images/yellow.png" class=crystal id= "three" alt="yellow">
-		<img src="assets/images/green.png" class=crystal id= "four" alt="green">
+		<img src="assets/images/r.png" id="red">
+		<img src="assets/images/b.png" id="blue">
+		<img src="assets/images/y.png" id= "yellow">
+		<img src="assets/images/g.png" id= "green">
 	</div>
 
 	<div class="totalscore">
@@ -50,10 +53,6 @@
 			<span id="total"></span>
 		</h4>
 	</div>
-
-
-
-
 
 
 </body>

@@ -23,10 +23,10 @@ function reset(){
 	random=Math.floor(Math.random()*100+19);
 	console.log(random)
 	$('#random').text(random);
-	var red=Math.floor(Math.random()*12+1);
-  	var blue=Math.floor(Math.random()*12+1);
-  	var yellow=Math.floor(Math.random()*12+1);
-  	var green=Math.floor(Math.random()*12+1);
+	var red=Math.floor((Math.random()*12) + 1);
+  	var blue=Math.floor((Math.random()*12) + 1);
+  	var yellow=Math.floor((Math.random()*12) + 1);
+  	var green=Math.floor((Math.random()*12) + 1);
   	totalscore=0;
   	$('#total').text(totalscore);
 	}

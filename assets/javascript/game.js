@@ -20,7 +20,7 @@ $('#win').text(win);
 $('#loss').text(loss);
 
 function reset(){
-	random=Math.floor(Math.random()*100+19);
+	random=Math.floor((Math.random()*100) +19);
 	console.log(random)
 	$('#random').text(random);
 	var red=Math.floor((Math.random()*12) + 1);

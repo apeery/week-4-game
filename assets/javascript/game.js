@@ -5,13 +5,13 @@ $('#random').text(random);
 $('#win').text(win);
 $('#loss').text(loss); 
   
+  var win= 0;
+  var loss = 0;
+  var totalscore= 0;
   var red=Math.floor((Math.random()*12) + 1);
   var blue=Math.floor((Math.random()*12) + 1);
   var yellow=Math.floor((Math.random()*12) + 1);
   var green=Math.floor((Math.random()*12) + 1);
-  var win= 0;
-  var loss = 0;
-  var totalscore= 0;
 
 function reset(){
 	random=Math.floor((Math.random()*100) +19);

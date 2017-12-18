@@ -2,6 +2,8 @@ $(document).ready(function(){
   var random=Math.floor((Math.random()*100) + 19);
 
 $('#random').text(random);
+$('#win').text(win);
+$('#loss').text(loss); 
   
   var red=Math.floor((Math.random()*12) + 1);
   var blue=Math.floor((Math.random()*12) + 1);
@@ -10,9 +12,6 @@ $('#random').text(random);
   var win= 0;
   var loss = 0;
   var totalscore= 0;
- 
-$('#win').text(win);
-$('#loss').text(loss);
 
 function reset(){
 	random=Math.floor((Math.random()*100) +19);

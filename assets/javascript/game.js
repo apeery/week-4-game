@@ -13,9 +13,6 @@ $(document).ready(function(){
   var yellow=Math.floor((Math.random()*12) + 1);
   var green=Math.floor((Math.random()*12) + 1);
 
-  
-
-
 $('#win').text(win);
 $('#loss').text(loss);
 
